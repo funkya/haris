@@ -1,0 +1,503 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Arial'
+}
+
+pre {
+	border-radius: 5px;
+	border: 1px solid #010101;
+	padding: 1px;
+	background: #dedfdf;
+}
+
+table {
+	float: left;
+	left: 140px;
+	position: relative;
+	padding-left: 50px;
+	padding-bottom: 40px;
+}
+
+li {
+	list-style-type: none;
+	display: inline-block;
+	margin:0;
+	padding: 0;
+
+}
+
+a{
+	text-decoration: none;
+	color:#FFFFFF;
+	position: relative;
+	line-height: 110px;
+	padding: 0 15px;
+	height: 110px;
+	text-transform: uppercase;
+}
+
+
+/* =================================== Warna background body ================================= */
+
+.dark{
+	background: #046380;
+}
+
+/* ======================================== End ============================================ */
+
+
+/* ======================= Content Semua slide kecuali Slide portofolio ====================== */
+
+.wrapper {
+	width: 1170px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 0px;
+	overflow: auto;
+}
+
+/* ======================================== End ============================================ */
+
+
+/* ============================== Content Slide Portofolio ================================== */
+
+#wrapper1 {
+	width: 1370px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 0px;
+	overflow: auto;
+}
+
+/* ======================================== End ============================================ */
+
+
+
+/* ======================================== NAVBAR =========================================== */
+.navbar{
+	background: #046380;
+	height: 50px;
+	margin-top: -30px;
+	position: relative;
+	z-index: 100;
+
+}
+
+.navbar::after{
+	margin:0;
+}
+
+.navbar-menu{
+	box-sizing: border-box;
+	margin: 0px;
+
+}
+
+.right{
+	float: right;
+}
+
+.title-primary{
+	font-size: 25pt;
+	color:#EFECCA;
+	font-weight: bold;
+
+}
+
+.navbar-fixed{
+	position: fixed;
+	background: #14395D;
+	width: 100%;
+	top:0;
+	left: 0;
+	height: 80px;
+
+}
+
+
+/* ======================================== End ============================================ */
+
+
+/* ======================================= ISI Cover ======================================== */
+
+.cover{
+	box-sizing:border-box;
+	
+	/*line-height: 200px;*/
+	height: 420px;
+	background: #046380;
+	margin-top: 0px;
+	/*margin-bottom: -20px;*/
+	position: relative;
+	padding-top: 30px;
+	color:#FFFFFF;
+}
+
+.cover::after{
+	color:#FFFFFF;
+	/*content: "<p>Ini cover website</p>";*/
+}
+
+.cover > .wrapper{
+	text-align: center;
+}
+
+/* ======================================== End ============================================ */
+
+
+
+/* ======================= Menu footer (Facebook,twitter,gplus) ============================== */
+
+.navbar-menu-footer{
+	text-align: center;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: -50px;
+	color: white;
+}
+
+.footer{
+	background: #14395D;
+	line-height: 100px;
+	height: 130px;
+}
+
+/* ======================================== End ============================================ */
+
+.div2{
+	width: 100%;
+	height: 100px;
+	float: left;
+	position: relative;
+}
+
+.content{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+.btn{
+	padding:15px;
+
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+.lowercase{
+	text-transform: lowercase;
+}
+
+
+
+.form-input{
+	width: 100%;
+	padding: 10px;
+	/*border-radius: 15px;*/
+	font-size: 16pt;
+
+}
+
+/* ===================================== Gambar About ======================================== */
+
+.kotak {
+	width: 80px;
+	height: 100px;
+	margin: 25px 0px 90px 0px;
+	position: relative;
+	left: 495px;
+}
+
+.kotak img{
+	position: relative;
+	
+	-moz-transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.kotak:hover img{
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,.5);
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.5);
+	-o-box-shadow: 0 0 10px rgba(0,0,0,.5);
+	-ms-box-shadow: 0 0 10px rgba(0,0,0,.5);
+	box-shadow: 0 0 10px rgba(0,0,0,.5);
+
+	-moz-transform: scale(1.3);
+	-webkit-transform: scale(1.3);
+	-o-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+/* ======================================== End ============================================ */
+
+
+
+/* ======================================= Slide About ======================================= */
+
+#slide-1 {
+	background-color: #3F8FB0;
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	position: relative;
+
+}
+
+/* ======================================== End ============================================ */
+
+
+/* ======================================= Slide Skills ======================================= */
+
+#slide-2 {
+	background-color: #206795;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+/* ======================================== End ============================================ */
+
+
+/* ====================================== Slide Portofolio =================================== */
+
+#slide-3 {
+	background-color: #799CF2;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+/* ======================================== End ============================================ */
+
+/* =================================== Slide Contact Us ====================================== */
+
+#slide-4 {
+	background-color: #3160BF;
+	width: 100%;
+	padding-top: -300px;
+	padding-bottom: 80px;
+	position: relative;
+}
+
+/* ======================================== End ============================================ */
+
+
+
+/* ======================================== Efek Gambar ======================================= */
+
+.gambar {
+	margin-bottom: 40px;
+	margin-left: 25px;
+	position: relative;
+	width: 430px;
+	height: 300px;
+	top: 10px;
+	float: left;
+
+
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,.3);
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.3);
+	-o-box-shadow: 0 0 10px rgba(0,0,0,.3)3
+	-ms-box-shadow: 0 0 10px rgba(0,0,0,.3);
+	box-shadow: 0 0 10px rgba(0,0,0,.3);
+
+	cursor: pointer;
+	overflow: hidden;
+}
+.gambar img{
+	width: 450px;
+
+	-moz-transition: all 1.5s ease-in;
+	-webkit-transition: all 1.5s ease-in;
+	-o-transition: all 1.5s ease-in;
+	-ms-transition: all 1.5s ease-in;
+	transition: all 1.5s ease-in;
+}
+.gambar:hover .caption{
+	opacity: 1;
+	top: 0;
+}
+.gambar:hover h3, .gambar:hover p{
+	left: 0;
+}
+.gambar:hover img{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+/* ======================================== End ============================================ */
+
+
+/* ==================================== Content dalam gambar ================================= */
+
+.caption{
+	opacity: 0;
+	position: absolute;
+	top: -100%;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.4);
+	color: white;
+	font: arial;
+
+	-moz-transition: all .4s ease-in;
+	-webkit-transition: all .4s ease-in;
+	-o-transition: all .4s ease-in;
+	-ms-transition: all .4s ease-in;
+	transition: all .4s ease-in;
+
+	-moz-transition-delay: .5s;
+	-webkit-transition-delay: .5s;
+	-o-transition-delay: .5s;
+	-ms-transition-delay: .5s;
+	transition-delay: .5s;
+}
+.caption h3, .caption p{
+	padding: 10px 20px 10px 20px;
+	margin-top: 0;
+	margin-bottom: 0;
+	position: relative;
+	left: 100%;
+
+	-moz-transition: all .4s;
+	-webkit-transition: all .4s;
+	-o-transition: all .4s;
+	-ms-transition: all .4s;
+	transition: all .4s;
+}
+
+.caption h3{
+	margin-top: 20px;
+	background-color: black;
+
+	-moz-transition-delay: .1s;
+	-webkit-transition-delay: .1s;
+	-o-transition-delay: .1s;
+	-ms-transition-delay: .1s;
+	transition-delay: .1s;
+}
+.caption p{
+	-moz-transition-delay: 1.2s;
+	-webkit-transition-delay: 1.2s;
+	-o-transition-delay: 1.2s;
+	-ms-transition-delay: 1.2s;
+	transition-delay: 1.2s;
+}
+
+/* ======================================== End ============================================ */
+
+
+/* ======================================== Skills ============================================ */
+
+#test1 {
+	background: #222;
+	color: #fff;
+	padding: 10px;
+	margin: 20px;
+	width: 1000px;
+	height: 30px;
+}
+
+#test2 {
+	background: #222;
+	color: #fff;
+	padding: 10px;
+	margin: 20px;
+	width: 1000px;
+	height: 30px;
+}
+
+#test3 {
+	background: #222;
+	color: #fff;
+	padding: 10px;
+	margin: 20px;
+	width: 700px;
+	height: 30px;
+}
+
+#test4 {
+	background: #222;
+	color: #fff;
+	padding: 10px;
+	margin: 20px;
+	width: 300px;
+	height: 30px;
+}
+
+#test5 {
+	background: #222;
+	color: #fff;
+	padding: 10px;
+	margin: 20px;
+	width: 110px;
+	height: 30px;
+}
+
+/* ======================================== End ============================================ */
+
+
+/* ======================================== Login ============================================ */
+
+.login {
+  position: absolute;
+  width:300px;
+  height:250px;
+  background-color: white;
+  border: 10px solid rgba(0,0,0,0.3);
+  border-radius: 3px;
+  padding:0;
+  color: grey;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+.loginheader {
+  width:100%-10px;
+  border-bottom: 1px solid #ccc;
+  background-color: #f2f2f2;
+  text-align: center;
+  padding:6px 10px 0;
+}
+.loginheader h1 {
+  font-family: 'Trebuchet MS';
+  font-size: 20px;
+}
+.logincontent {
+  margin-top: 3px;
+  padding:15px;
+  text-align: center;
+
+}
+.logincontent .input {
+  margin:9px;
+  width:80%;
+  text-align: center;
+  padding:4px;
+}
+
+.logincontent .submit {
+  margin:9px;
+  text-align: center;
+  padding:4px 15px;
+}
+
+
+/* ======================================== End ============================================ */
